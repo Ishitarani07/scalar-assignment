@@ -11,7 +11,7 @@ app.use(
     origin:
       process.env.CLIENT_URL ||
       "http://localhost:5173" ||
-      "https://scalar-assignment-ishita.vercel.app/",
+      "https://scalar-assignment-ishita.vercel.app",
     credentials: true,
   }),
 );
